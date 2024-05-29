@@ -46,4 +46,4 @@ jobs:
        run: mvn clean compile
        
      - name: Run specific Java class
-       run: java -cp target/java-practice-lab-1.0-SNAPSHOT.jar techiearchive.lab.StringTest
+       run: java -cp target/classes techiearchive.lab.StringTest
