@@ -5,6 +5,9 @@ classes=(
  "techiearchive.lab.HelloWorld"
  "techiearchive.lab.Pyramide"
  "techiearchive.lab.ReverseString"
+ "techiearchive.lab.StringContainsVowels"
+ "techiearchive.lab.StringTest"
+ "techiearchive.lab.SwapNumbers"
 )
 
 # Directory containing compiled classes
