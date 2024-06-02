@@ -1,6 +1,6 @@
 # This workflow will build a Java project with Maven and execute the Java classes.
 
-name: Java CI Run Classes
+name: Java CI Run All Classes
 on:
  push:
    branches:
