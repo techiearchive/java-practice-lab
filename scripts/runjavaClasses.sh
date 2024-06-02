@@ -13,7 +13,7 @@ classpath="target/classes"
 # Iterate over each class and execute it
 for class in "${classes[@]}"; do
  echo "Running $class..."
- if java -cp $classpath "$class";
+ if ! java -cp $classpath "$class";
  then
    echo "Execution of $class failed"
    exit 1
