@@ -7,7 +7,9 @@ Practice codebase for core java logic
 * https://www.w3schools.com/java/java_compiler.asp
 
 # Generate java project archetype
+```
 mvn archetype:generate -DgroupId=techiearchive.lab -DartifactId=java-practice-lab -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+```
 
 # Build and test the code
 ```
